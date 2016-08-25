@@ -1,0 +1,70 @@
+html, body{
+	background-color: #fff;
+}
+
+
+/*top nav positioning*/
+/*remove bullets, remove default element spacing*/
+/*nav bar floats to right*/
+div.navbar ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right
+}
+
+/* list element, is horizontal with in <ul> */
+.navbar li{
+
+	display: inline;
+
+
+}
+
+/*div.center centering 
+ref:https://css-tricks.com/
+quick-css-trick-how-to-center-an-object-exactly-in-the-center/
+*/
+
+.center{
+	
+	position: fixed; /* or absolute */
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  
+}
+
+footer div ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+/*footer height + puts to bottom of page*/
+footer{
+	
+	position:absolute;
+   	bottom:0;
+   	width:100%;
+   	height:40px;   /* Height of the footer */
+  
+
+}
+
+footer div ul li{
+	display: inline;
+}
+.f_right{
+	float: right;
+}
+.f_left{
+	float: left;
+}
+ul{
+
+	border: 10px solid yellow;
+}
